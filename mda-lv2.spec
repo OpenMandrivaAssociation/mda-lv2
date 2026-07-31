@@ -1,6 +1,6 @@
 Summary:	LV2 port of the MDA effects and synths
 Name:	mda-lv2
-Version:	1.2.10
+Version:	1.2.12
 Release:	1
 License:	GPLv3+
 Group:	Sound
@@ -25,7 +25,7 @@ http://mda.smartelectronix.com/vst/help/index.htm
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{name}-v%{version}
+%autosetup -p1 -n mda-lv2-v1.2.12
 
 
 %build
